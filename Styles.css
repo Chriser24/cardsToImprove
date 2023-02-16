@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+body {
+  display: grid;
+  place-items: center;
+  background-image: url(./TorneoDelPoder.jpg);
+  /*background-repeat: no-repeat;*/
+}
+section {
+  display: flex;
+  width: 600px;
+  height: 430px;
+}
+section img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.3s ease;
+  
+}
+
+section img:hover {
+  cursor:cell;
+  width: 300px;
+  opacity: 3;
+  filter: contrast(120%);
+  background-size: cover;
+}
+
+strong{
+    font-family: sans-serif;
+    font-size: 40px;
+    color:aqua;
+
+}
